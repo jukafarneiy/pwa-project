@@ -1,5 +1,8 @@
 'use client'
+
 import { useEffect } from "react";
+
+
 const RegisterServiceWorker = () => {
     useEffect(() => {
         if ('serviceWorker' in navigator) {
